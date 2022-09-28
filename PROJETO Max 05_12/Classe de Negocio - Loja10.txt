@@ -1,0 +1,53 @@
+Classe de Negocio - Loja10
+
+Endereco* OK
+.Get/Set
+..rua
+..bairro
+..cidade
+..estado
+..país
+
+Cargo* OK
+.Get/Set
+..nome
+..descricao
+..salario
+
+Funcionario* OK
+.Get/Set
+..nome
+..dt admissao
+..dt demissao
+.Classe Cargo
+.Classe Endereco
+.Classe Loja / Loja onde trabalha
+
+Loja* OK
+.Get/Set
+..nome
+.Classe Endereco / Endereco da Loja
+
+Empresa* OK
+.Get/Set
+..nome
+..descrição
+Classe Endereco / Endereco da Empresa
+
+Categ. Produto* OK
+.Get/Set
+..descricao
+
+Produto* OK
+.Get/Set
+..nome
+..valor_compra
+..valor_venda
+.Classe Categ. Produto
+.Classe Loja
+
+Pedido* (Programa MAIN ???)
+.Get/Set
+..valor_total
+.Classe Produto / Produtos do pedido
+.Classe Loja

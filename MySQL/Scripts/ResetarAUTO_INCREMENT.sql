@@ -1,0 +1,1 @@
+ALTER TABLE regiao_t AUTO_INCREMENT = 2;

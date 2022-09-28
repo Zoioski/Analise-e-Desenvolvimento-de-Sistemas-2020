@@ -1,0 +1,1 @@
+alter table municipio_t add foreign key(testado_IBGE_cod) references estado_t(IBGE_cod)
